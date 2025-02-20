@@ -25,16 +25,9 @@
     * PersistentData API 접근성 개선
 
 * #### Supported minecraft versions
-    * 1.18
-    * 1.18.1
-    * 1.18.2
-    * 1.19
-    * 1.19.1
-    * 1.19.2
-    * 1.19.3
-    * 1.19.4
-    * 1.20
-    * 1.20.1
+    * 1.21.4
+     
+
 
 ---
 
@@ -48,7 +41,7 @@ repositories {
 
 ```kotlin
 dependencies {
-    implementation("io.github.monun:tap-api:<version>")
+    implementation("io.github.highright1234:tap-api:<version>")
 }
 ```
 
@@ -59,19 +52,20 @@ name: ...
 version: ...
 main: ...
 libraries:
-  - io.github.monun:tap-core:<version>
+  - io.github.highright1234:tap-core:<version>
 ```
 
 #### !!주의!!
 
 * `Gradle`과 `plugin.yml`의 의존성 패키지가 다르므로 주의해주세요.
-* 모든 코드는 ShadowJar를 고려하여 작성되지 않았습니다.
+* 기존의 Tap의 경우에는 ShadowJar를 지원하지 않았지만, 현재는 ShadowJar를 지원합니다
 
 ---
 
 ### NOTE
 
 * 라이센스는 GPL-3.0이며 변경 혹은 삭제를 금합니다.
+* 1.20.1 이후의 버전의 지원을 원하시면 issue를 넣어주시거나, 디스코드 `highright_`로 연락해주세요!
 
 ---
 
